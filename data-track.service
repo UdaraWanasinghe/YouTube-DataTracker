@@ -1,0 +1,8 @@
+[Unit]
+Description=YouTube data tracking service
+
+[Service]
+ExecStart=/home/udara/Documents/data_track/track.sh
+
+[Install]
+WantedBy=default.target
